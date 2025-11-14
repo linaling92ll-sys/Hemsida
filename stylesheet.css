@@ -36,4 +36,22 @@
     border-radius: 2em;         
     
 }
+.bilder {
+    display: flex;
+    gap:3em;
+    padding: 2em;
+}
+.bilder img{
+    width:30%;
+    height: auto;
+    
+}
+footer {
+    background-color: #97cff5;
+    padding: 1rem;
+}
+footer p {
+    font-size: 1.2em;
+    line-height: 2em;
+}
 
