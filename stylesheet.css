@@ -26,13 +26,13 @@
      line-height: 1.5em;
 }
 .intro {
-    width: 40rem;            /* Begränsar bredden för snygg layout */
-    margin: 2em auto;            /* Centrerar rutan och lägger lite mellanrum ovanför och under */
-    padding: 1.5em 2em;          /* Luft inuti rutan */
-    text-align: center;          /* Centrerar texten */
-    font-size: 1.5em;            /* Lite större text */
-    background-color: #97cff5;   /* Bakgrundsfärg – gul, byt till valfri färg */
-    color: #2c2c2c;                 /* Textfärg */
+    width: 40rem;            
+    margin: 2em auto;            
+    padding: 1.5em 2em;          
+    text-align: center;          
+    font-size: 1.5em;            
+    background-color: #97cff5;   
+    color: #2c2c2c;                 
     border-radius: 2em;         
     
 }
@@ -52,6 +52,6 @@ footer {
 }
 footer p {
     font-size: 1.2em;
-    line-height: 2em;
+    line-height: 1.5em;
 }
 
