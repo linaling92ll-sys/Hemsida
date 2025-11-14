@@ -25,6 +25,9 @@
      font-size: 1.3em;
      line-height: 1.5em;
 }
+body {
+    background-color: rgba(142, 154, 177, 0.336);
+}
 .intro {
     width: 40rem;            
     margin: 2em auto;            
@@ -48,10 +51,10 @@
 }
 footer {
     background-color: #97cff5;
-    padding: 1rem;
+    padding: 0.5em;
 }
 footer p {
-    font-size: 1.2em;
-    line-height: 1.5em;
+    font-size: 1em;
+    line-height: 1em;
 }
 
