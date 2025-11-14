@@ -8,17 +8,32 @@
 }
 .logo {
     position: absolute;
-    top:1px;
-    left: 1px;
-    width: 120px;
+    top:0.5em;
+    left: 1em;
+    width: 8em;
 }
 .Huvudnavigering ul{
+    display: flex;
     list-style: none;
+    place-content: center;
+    gap: 2em;
+    padding-top: 2em;
 }
 .meny {
+    color: black;
      font-weight: bold;
      font-size: 1.3em;
      line-height: 1.5em;
 }
-
+.intro {
+    width: 40rem;            /* Begränsar bredden för snygg layout */
+    margin: 2em auto;            /* Centrerar rutan och lägger lite mellanrum ovanför och under */
+    padding: 1.5em 2em;          /* Luft inuti rutan */
+    text-align: center;          /* Centrerar texten */
+    font-size: 1.5em;            /* Lite större text */
+    background-color: #97cff5;   /* Bakgrundsfärg – gul, byt till valfri färg */
+    color: #2c2c2c;                 /* Textfärg */
+    border-radius: 2em;         
+    
+}
 
